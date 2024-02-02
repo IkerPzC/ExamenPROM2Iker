@@ -1,0 +1,68 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".AdministrationActivity">
+
+    <!-- Botón de Insertar -->
+    <Button
+        android:id="@+id/botonInsertar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/botonInsertar"
+        android:onClick="botonInsertar"/>
+
+    <!-- Botón de Modificar -->
+    <Button
+        android:id="@+id/botonModificar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/botonModificar"
+        android:onClick="botonModificar"/>
+
+     <!-- Botón de Borrar -->
+    <Button
+        android:id="@+id/botonBorrar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="@string/botonBorrar"
+        android:onClick="botonBorrar"/>
+
+    <!--Nombre -->
+    <EditText
+        android:id="@+id/nombreElemento"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/asulito"
+        android:hint="@string/pistaNombre"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <!-- Botón de Volver -->
+    <Button
+        android:id="@+id/botonVolver"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/botonVolver"
+        android:onClick="botonVolver"/>
+
+</RelativeLayout>

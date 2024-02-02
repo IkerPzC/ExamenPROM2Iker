@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QUIMICANDO</string>
+    <string name="botonConsultar">Consultar</string>
+    <string name="botonQuimico">Quimico</string>
+    <string name="botonSalir">Salir</string>
+    <string name="betiAlaves">Beti Alavés!!</string>
+    <string name="botonBuscar">Buscar</string>
+    <string name="botonVolver">Volver</string>
+    <string name="botonLimpiar">Limpiar</string>
+    <string name="pistaNombre">Nombre</string>
+    <string name="pistaPassword">Password</string>
+    <string name="botonLogin">Login</string>
+    <string name="tituloError">ERROR</string>
+    <string name="textoError">Credenciales incorrectas!!</string>
+    <string name="botonCancelar">Cancelar</string>
+    <string name="botonInsertar">Insertar</string>
+    <string name="botonModificar">Modificar</string>
+    <string name="botonBorrar">Borrar</string>
+    <string name="pistaId">Id</string>
+    <string name="pistaSimbolo">Simbolo</string>
+    <string name="pistaNumAtomico">Num.Atomico</string>
+    <string name="pistaEstado">Estado</string>
+    <string name="insercionCorrecta">Elemento insertado!</string>
+    <string name="insercionIncorrecta">Elemento no insertado!!</string>
+    <string name="elementoExistente">Elemento EXISTENTE!!</string>
+    <string name="correctoBorrado">Se ha borrado un elemento!</string>
+    <string name="incorrectoBorrado">No se ha podido eliminar el elemento!</string>
+    <string name="correctaModificacion">Se ha modificado un elemento!</string>
+    <string name="incorrectaModificacion">No se ha podido modificar un elemento!</string>
+</resources>

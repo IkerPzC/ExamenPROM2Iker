@@ -1,0 +1,116 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".SearchActivity">
+
+    <!--Id -->
+    <EditText
+        android:id="@+id/campoId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/asulito"
+        android:hint="@string/pistaId"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <!--Nombre -->
+    <EditText
+        android:id="@+id/campoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/asulito"
+        android:hint="@string/pistaNombre"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <!--Simbolo -->
+    <EditText
+        android:id="@+id/campoSimbolo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/asulito"
+        android:hint="@string/pistaSimbolo"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <!--Numero atomico -->
+    <EditText
+        android:id="@+id/campoNumAtomico"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/asulito"
+        android:hint="@string/pistaNumAtomico"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <!--Estado -->
+    <EditText
+        android:id="@+id/campoEstado"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/asulito"
+        android:hint="@string/pistaEstado"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <!-- Botón de Insertar -->
+    <Button
+        android:id="@+id/botonInsertar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:text="@string/botonInsertar"
+        android:onClick="botonInsertar"/>
+
+    <!-- Botón de volver -->
+    <Button
+        android:id="@+id/botonVolver"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:text="@string/botonVolver"
+        android:onClick="botonVolver"/>
+</RelativeLayout>

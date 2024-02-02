@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Botón de consultar -->
+    <Button
+        android:id="@+id/botonConsultar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/botonConsultar"
+        android:onClick="botonConsultar"/>
+
+    <!-- Botón de quimica -->
+    <Button
+        android:id="@+id/botonQuimico"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/botonQuimico"
+        android:onClick="botonQuimico"/>
+
+    <!-- Botón de salir -->
+    <Button
+        android:id="@+id/botonSalir"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/botonSalir"
+        android:onClick="botonSalir"/>
+
+    <!-- Numero de consultas -->
+    <TextView
+        android:id="@+id/numeroConsultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="0"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <!-- Imagen decorativa-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/quimicando" />
+</RelativeLayout>

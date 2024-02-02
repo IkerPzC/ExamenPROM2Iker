@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".SearchActivity">
+
+    <!-- Input de elemento -->
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <!-- Botón de buscar -->
+    <Button
+        android:id="@+id/botonBuscar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/botonBuscar"
+        android:onClick="botonBuscar"/>
+
+    <!-- Resultados -->
+    <TextView
+        android:id="@+id/preg1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:height="100dp"
+        android:gravity="center"
+        android:background="@color/asulito"
+        android:textStyle="bold"/>
+
+    <!-- Botón de salir -->
+    <Button
+        android:id="@+id/botonVolver"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/botonVolver"
+        android:onClick="botonVolver"/>
+</RelativeLayout>
